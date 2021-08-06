@@ -1,0 +1,67 @@
+﻿.floating-label-group {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.row {
+    margin-top: 0px;
+  
+}
+
+
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label {
+    top: -25px;
+    bottom: 10px;
+    left: 5px;
+    font-size: 11px;
+    opacity: 1;
+}
+
+.inputText {
+    box-shadow: none;
+    padding: 5px 20px;
+    height: 44px;
+    font-size: 14px;
+    border-radius: 0;
+    max-width:250px;
+}
+
+    .inputText:focus {
+        box-shadow: none;
+        border: 1px solid #3ec1d5;
+    }
+
+.floating-label {
+    position: absolute;
+    color: gray;
+    pointer-events: none;
+    left: 20px;
+    top: 8px;
+    transition: 0.2s ease all;
+}
+
+.wrapper {
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-bottom:50px;
+    box-shadow: none;
+    border: 1px solid #dadada;
+    padding-top: 25px;
+    padding-left: 60px;
+    padding-right: 15px;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.loginLinkButton {
+    padding-left:50px;
+}
+
+.loginLabel {
+    color: #959595;
+   font-weight:bold;
+   font-size:20px;
+}
